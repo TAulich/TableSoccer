@@ -18,7 +18,8 @@ public class Test extends HttpServlet {
 		// Do required initialization
 		message = "Test-servlet of table-soccer application ..."
 				+ "<br/>Now running as eclipse-project with gradle-plugin"
-				+ "<br/>And Git-Support";
+				+ "<br/>And Git-Support"
+				+ "<br/>Changed on 2016-11-15";
 	}
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
